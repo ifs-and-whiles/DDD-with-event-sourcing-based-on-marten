@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DDDWithEventSourcingBasedOnMarten.CodeReadability\DDDWithEventSourcingBasedOnMarten.CodeReadability.csproj" />
+      <ProjectReference Include="..\DDDWithEventSourcingBasedOnMarten.Marten\DDDWithEventSourcingBasedOnMarten.Marten.csproj" />
+    </ItemGroup>
+
+</Project>
